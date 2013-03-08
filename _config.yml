@@ -1,0 +1,7 @@
+title:       Feedbin Blog
+description: Rediscover RSS
+domain:      http://blog.feedbin.me
+email:       support@feedbin.me
+permalink:   pretty
+pygments:    true
+paginate:    10

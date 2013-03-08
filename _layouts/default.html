@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<title>{{ page.title }}</title>
+	<link rel="alternate" type="application/atom+xml" title="Feedbin Blog" href="{{ site.domain }}/atom.xml" />
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,300" />
+	<link rel="stylesheet" href="/css/master.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
+</head>
+<body class="{{ page.class }}">
+	<div class="container ">
+		<div class="content clearfix">
+			<div class="half">
+				<a href="https://feedbin.me" class="logo"></a>
+			</div>
+			<div class="half">
+				<ul class="nav">
+					<li><a href="/">Blog</a></li>
+					<li><a href="/archive/">Archive</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content main-content">
+			{{ content }}
+		</div>
+	</div>
+	<footer>
+		<div class="container clearfix">
+			<div class="content">
+				<div class="half">
+					<p><a href="https://twitter.com/feedbinapp">@feedbinapp</a> | <a href="mailto:support@feebin.me">support@feebin.me</a></p>
+				</div>
+				<div class="half right-text">
+					<p>© 2013 Feedbin, LLC</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

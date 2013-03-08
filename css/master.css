@@ -1,0 +1,262 @@
+/*----------------------------------------------
+  Reset
+----------------------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,ul {
+	list-style: none;
+}
+blockquote,q {
+	quotes: none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	
+/*----------------------------------------------
+  HTML
+----------------------------------------------*/
+body {
+	background-color: #eaeaea;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	font-size: 16px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	line-height: 1.4;
+}
+a:link,a:visited {
+	text-decoration: none;
+	outline: none;
+	color: #08C;
+}
+a:hover {
+	color: #005580;
+}
+cite {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+	
+strong {
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 18px;
+}
+	
+img {
+	padding: 3px;
+	border-radius: 3px;
+	margin: 0 0 10px 0;
+	display: block;
+}
+
+table {
+	@extend .table;
+	@extend .table-bordered;
+}
+
+code {
+	color: #333;
+}
+		
+pre code {
+	display: block;
+	background-color: whiteSmoke;
+	overflow-x: scroll;
+	white-space: pre;
+	word-wrap: normal;
+}
+	
+code, pre {
+	font-family: Consolas, Monaco, monospace;
+}
+	
+blockquote p {
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+p,
+ul,
+ol {
+	margin: 0 0 16px 0;
+}
+
+time {
+	color: #999;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+/*----------------------------------------------
+  Layout
+----------------------------------------------*/
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+/*----------------------------------------------
+  Structure
+----------------------------------------------*/
+.logo {
+	height: 26px;
+	width: 135px;
+	background: url(/img/logo.png) no-repeat scroll top left;
+	background-size: 135px 26px;
+	display: block;
+}
+.nav {
+	padding-top: 10px;
+	text-align: right;
+	margin: 0;
+	color: #999;
+}
+.nav li {
+	display: inline;
+	padding-left: 3px;
+}
+.nav li a {
+	padding-left: 3px;
+}
+.nav li:before {
+	color: #999;
+	content: "|";
+}
+.nav li:first-child:before {
+	content: "";
+}
+.container {
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.content {
+	padding: 20px 20px 10px 20px;
+	border: 1px solid transparent;
+}
+.main-content {
+	background-color: #FFF;
+	border-color: #DDD;
+}
+.home article {
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 15px;
+}
+footer {
+	color: #999;
+	font-size: 13px;
+}
+/*----------------------------------------------
+  Helpers
+----------------------------------------------*/
+.right-text {
+	text-align: right;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+	body {
+		margin: 0 10px;
+		-webkit-text-size-adjust: 100%
+	}
+	.nav {
+		padding-top: 6px;
+	}
+	.container {
+		width: 100%;
+	}
+	.content {
+		padding: 10px;
+	}
+	footer .half {
+		float: none;
+		width: auto;
+	}
+	footer .right-text {
+		text-align: left;
+	}
+	footer p {
+		margin-bottom: 5px;
+	}
+}
