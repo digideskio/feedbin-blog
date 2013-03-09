@@ -230,7 +230,7 @@ time {
 .logo {
 	height: 26px;
 	width: 135px;
-	background: url(/img/logo.png) no-repeat scroll top left;
+	background: url(/assets/images/logo.png) 0 0 no-repeat;
 	background-size: 135px 26px;
 	display: block;
 }
