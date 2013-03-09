@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<title>{{ page.title }}</title>
 	<link rel="alternate" type="application/atom+xml" title="Feedbin Blog" href="{{ site.domain }}/atom.xml" />
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,300" />
 	<link rel="stylesheet" href="/css/master.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
 </head>
 <body class="{{ page.class }}">
@@ -34,7 +33,7 @@
 					<p><a href="https://twitter.com/feedbinapp">@feedbinapp</a> | <a href="mailto:support@feebin.me">support@feebin.me</a></p>
 				</div>
 				<div class="half right-text">
-					<p>© 2013 Feedbin, LLC</p>
+					<p>© {{ site.time | date: "%Y" }} Feedbin, LLC</p>
 				</div>
 			</div>
 		</div>
