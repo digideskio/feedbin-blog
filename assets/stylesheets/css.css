@@ -134,6 +134,7 @@ img {
 	border-radius: 3px;
 	margin: 0 0 10px 0;
 	display: block;
+	width: 100%;
 }
 
 table {
@@ -168,6 +169,11 @@ p,
 ul,
 ol {
 	margin: 0 0 16px 0;
+}
+
+li {
+	margin-left: 20px;
+	list-style-type: disc;
 }
 
 time {
@@ -244,7 +250,8 @@ time {
 
 .nav li {
 	display: inline;
-	padding-left: 3px;
+	padding: 0 0 0 3px;
+	margin: 0;
 }
 
 .nav li a {
