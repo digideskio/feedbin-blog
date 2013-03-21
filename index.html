@@ -4,14 +4,14 @@ title: Feedbin Blog
 class: home
 ---
 
-{% for post in paginator.posts %}	
+{% for page in paginator.posts %}	
 <article>
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<p class="post-meta">
-		by {{ post.author }}
-		<br /><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time>
+	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	<p class="page-meta">
+		by {{ page.author }}
+		<br /><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
 	</p>
-	{{ post.content }}
+	{{ page.content }}
 </article>
 {% endfor %}
 
