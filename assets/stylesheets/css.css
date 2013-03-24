@@ -136,6 +136,7 @@ img {
 	display: block;
 	width: 100%;
 	max-width: 100%;
+	border: 1px solid #e2e2e2;
 }
 
 table {
@@ -182,6 +183,15 @@ time {
 	font-size: 12px;
 	font-weight: 400;
 	margin-bottom: 15px;
+}
+
+code {
+	font-family: Consolas, monospace;
+	margin: 0 2px;
+	padding: 0px 5px;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
+	white-space: nowrap;
 }
 
 /*----------------------------------------------
