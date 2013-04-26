@@ -88,7 +88,7 @@ body {
 	margin: 0;
 	color: #333;
 	font-size: 16px;
-	font-family: "Open Sans Light";
+	font-family: "Open Sans Regular";
 	line-height: 1.4;
 	-webkit-text-size-adjust: 100%;
 }
@@ -115,7 +115,7 @@ strong {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	font-family: "Open Sans Regular", sans-serif;
+	font-family: "Open Sans Semibold", sans-serif;
 	font-weight: 400;
 	margin-bottom: 1em;
 }
