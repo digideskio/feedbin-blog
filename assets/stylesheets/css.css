@@ -169,7 +169,8 @@ blockquote p {
 
 p,
 ul,
-ol {
+ol,
+pre {
 	margin: 0 0 16px 0;
 }
 
