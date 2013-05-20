@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Rename Feeds
-date: 2013-05-20 03:55:00
 author: Ben Ubois
 ---
 
