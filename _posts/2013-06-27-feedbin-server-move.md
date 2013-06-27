@@ -13,3 +13,5 @@ The new setup is going to be great. I'll have more details about how I've been s
 The new setup has been running beautifully as a staging server for the past few days. The downtime tomorrow is to do the final database transfer from the current host to the new host. Running both systems at once could cause some issues with data loss so I'm taking the safe route by turning the site off completely.
 
 Feedbin is built on paying customers and I really appreciate your support and patience. Thanks to you Feedbin has been profitable since three weeks in and will be able to stick around for a while.
+
+Please contact me by [email](mailto:support@feedbin.me) or on [Twitter](https://twitter.com/feedbinapp) if you have any questions.
