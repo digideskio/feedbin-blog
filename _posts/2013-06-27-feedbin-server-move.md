@@ -4,7 +4,7 @@ title:  Feedbin Server Move
 author: Ben Ubois
 ---
 
-Tomorrow Feedbin will be moving to a new home at [SoftLayer](http://www.softlayer.com/). Feedbin will be down from 9:00AM PST - 3:00PM PST. 
+Tomorrow Feedbin will be moving to a new home at [SoftLayer](http://www.softlayer.com/). Feedbin will be down from [9:00AM PDT - 3:00PM PDT](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Feedbin+Server+Move&iso=20130628T09&p1=224&ah=6). 
 
 Over the past week the traffic has been going up and performance has been going down. It's been crazy trying to keep up over the last 3.5 months and this move will bring some much needed power and flexibility.
 
