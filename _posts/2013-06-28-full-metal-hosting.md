@@ -22,7 +22,9 @@ Feedbin is heavily I/O bound and cloud servers just were not cutting it for much
 
 **Database Server**
 
-Postgres 9.2.3 on Ubuntu 12.04.2 LTS 64bit
+Postgres 9.2.4 on Ubuntu 12.04.2 LTS 64bit (with a [3.9 kernel upgrade](http://commandprompt.com/blogs/joshua_drake/2013/06/the_steaming_pile_that_is_precise_with_kernel_32))
+
+Big thanks to [Josh Drake](http://www.commandprompt.com/blogs/joshua_drake/), Andrew Nierman and the rest of the team at [Command Prompt](http://commandprompt.com/) for setting this up. These guys do excellent (and fast) work. I wanted a top-notch, reliable and fast Postgres setup and these guys nailed it.
 
 - Motherboard: SuperMicro X9DRI-LN4F+ Intel Xeon DualProc
 - CPU: 2 x Intel Xeon Sandy Bridge E5-2620 Hex Core 2GHz
@@ -32,7 +34,7 @@ Postgres 9.2.3 on Ubuntu 12.04.2 LTS 64bit
 
 The database server is in a 6U enclosure. Check out pictures of these things, [they're monsters](http://tinyurl.com/nt7wclk).
 
-The database has a similarly configured hot standby and ships write-ahead log files to S3 constantly as well as taking a nightly base backup using Heroku's excellent [wal-e](https://github.com/wal-e/wal-e).
+The database has a similarly configured hot standby (using Command Prompt's [PITRtools](https://github.com/commandprompt/PITRTools)) and ships write-ahead log files to S3 constantly as well as taking a nightly base backup using Heroku's [wal-e](https://github.com/wal-e/wal-e).
 
 **Web Servers x 3**
 
