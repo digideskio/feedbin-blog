@@ -30,7 +30,7 @@ Big thanks to [Josh Drake](http://www.commandprompt.com/blogs/joshua_drake/), An
 - CPU: 2 x Intel Xeon Sandy Bridge E5-2620 Hex Core 2GHz
 - RAM: 64GB
 - Storage: 4 x [Intel S3700 Series](http://www.anandtech.com/show/6432/the-intel-ssd-dc-s3700-intels-3rd-generation-controller-analyzed) SSDSC2BA800G301 800GB in RAID 10 for about 1.6TB of usable space
-- Alternate storage: 2 x Seagate Cheetah ST3600057SS (600GB) used for WAL and xlogs.
+- Alternate storage: 2 x Seagate Cheetah ST3600057SS (600GB) used for WAL.
 
 The database server is in a 6U enclosure. Check out pictures of these things, [they're monsters](http://tinyurl.com/nt7wclk).
 
