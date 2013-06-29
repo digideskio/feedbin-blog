@@ -24,7 +24,7 @@ Feedbin is heavily I/O bound and cloud servers just were not cutting it for much
 
 Postgres 9.2.4 on Ubuntu 12.04.2 LTS 64bit (with a [3.9 kernel upgrade](http://commandprompt.com/blogs/joshua_drake/2013/06/the_steaming_pile_that_is_precise_with_kernel_32))
 
-Big thanks to [Josh Drake](http://www.commandprompt.com/blogs/joshua_drake/), Andrew Nierman and the rest of the team at [Command Prompt](http://commandprompt.com/) for setting this up. These guys do excellent (and fast) work. I wanted a top-notch, reliable and fast Postgres setup and these guys nailed it.
+Big thanks to [Josh Drake](http://www.commandprompt.com/blogs/joshua_drake/), Andrew Nierman and the rest of the team at [Command Prompt](http://commandprompt.com/) for setting this up. These guys do excellent (and fast) work. I wanted a top-notch, reliable and fast Postgres setup and they nailed it.
 
 - Motherboard: SuperMicro X9DRI-LN4F+ Intel Xeon DualProc
 - CPU: 2 x Intel Xeon Sandy Bridge E5-2620 Hex Core 2GHz
