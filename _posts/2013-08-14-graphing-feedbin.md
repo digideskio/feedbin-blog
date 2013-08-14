@@ -8,7 +8,7 @@ Feedbin uses [Librato Metrics](http://metrics.librato.com) for graphing. It even
 
 <img src="/assets/images/2013-08-14/www1.png" style="max-width: 965px;" />
 
-For monitoring various other services Feedbin uses a [ruby script](https://gist.github.com/benubois/6115402) that gets run once per minute using [Sidekiq](https://github.com/mperham/sidekiq).
+For monitoring various other services, Feedbin uses a [ruby script](https://gist.github.com/benubois/6115402) that gets run once per minute using [Sidekiq](https://github.com/mperham/sidekiq).
 
 This produces some great metrics about Redis, Postgres and Memcached:
 
