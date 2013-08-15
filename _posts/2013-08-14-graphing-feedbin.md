@@ -4,7 +4,7 @@ title:  Graphing Feedbin
 author: Ben Ubois
 ---
 
-Feedbin uses [Librato Metrics](http://metrics.librato.com) for graphing. It even works great for monitoring systems. For example [this shell script](https://gist.github.com/benubois/6115235) generates a set of graphs for one of the web servers like:
+Feedbin uses [Librato Metrics](http://metrics.librato.com) for graphing. It even works well for monitoring systems. For example [this shell script](https://gist.github.com/benubois/6115235) generates a set of graphs for one of the web servers like:
 
 <img src="/assets/images/2013-08-14/www1.png" style="max-width: 965px;" />
 
