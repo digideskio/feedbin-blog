@@ -2,6 +2,7 @@
 layout: post
 title:  Feature Preview
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 The positive feedback and encouragement I've received about Feedbin has been amazing. I couldn't ask for better customers. Thank you.

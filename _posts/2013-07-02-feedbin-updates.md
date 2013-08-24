@@ -2,6 +2,7 @@
 layout: post
 title:  Feedbin Updates
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 **Reeder Update**

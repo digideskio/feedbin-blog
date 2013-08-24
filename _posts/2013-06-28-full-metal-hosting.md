@@ -2,6 +2,7 @@
 layout: post
 title:  Full Metal Hosting
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 Feedbin is now running in its new home at [SoftLayer WDC01](http://www.softlayer.com/).

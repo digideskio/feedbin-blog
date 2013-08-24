@@ -2,6 +2,7 @@
 layout: post
 title:  Migrating from Google Reader
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 [Google Reader is shutting down](http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html) on July 1st 2013.

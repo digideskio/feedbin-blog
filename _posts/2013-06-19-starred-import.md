@@ -2,6 +2,7 @@
 layout: post
 title:  Starred Import
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 You can now import your starred items from Google Reader. 

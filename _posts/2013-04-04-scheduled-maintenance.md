@@ -2,6 +2,7 @@
 layout: post
 title:  Scheduled Maintenance this Saturday
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 Feedbin will be offline starting at [11:00 PDT this Saturday, April 6th 2013](http://www.timeanddate.com/worldclock/fixedtime.html?msg=3&iso=20130406T11&p1=224&am=5). The maintenance window should last a few minutes.

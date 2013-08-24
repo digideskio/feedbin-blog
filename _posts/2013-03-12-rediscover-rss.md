@@ -2,6 +2,7 @@
 layout: post
 title:  Rediscover RSS
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 RSS changed how I read online. RSS enabled me to keep up with content from hundreds of websites, and quickly became my number one pastime.

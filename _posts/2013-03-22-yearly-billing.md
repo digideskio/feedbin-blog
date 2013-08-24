@@ -2,6 +2,7 @@
 layout: post
 title:  Yearly Billing
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 There is now a $20/year billing option for Feedbin. 

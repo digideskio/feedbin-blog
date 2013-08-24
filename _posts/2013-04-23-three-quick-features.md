@@ -2,6 +2,7 @@
 layout: post
 title:  Three Quick Features
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 1. Entry dates are now converted to your timezone

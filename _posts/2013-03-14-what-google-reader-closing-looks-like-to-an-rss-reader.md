@@ -2,6 +2,7 @@
 layout: post
 title:  What Google Reader Closing Looks Like to an RSS Reader
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 [![Feedbin Traffic](/assets/images/2013-03-14/feedbin_traffic.png)](/assets/images/2013-03-14/feedbin_traffic.png)

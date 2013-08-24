@@ -2,6 +2,7 @@
 layout: post
 title:  Rename Feeds
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 You can now rename feeds in Feedbin. 

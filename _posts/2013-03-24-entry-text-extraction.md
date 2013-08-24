@@ -2,6 +2,7 @@
 layout: post
 title:  Entry Text Extraction
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 <img src="/assets/images/2013-03-24/content_extraction.gif" style="max-width: 752px;" />

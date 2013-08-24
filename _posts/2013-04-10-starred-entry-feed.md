@@ -2,6 +2,7 @@
 layout: post
 title:  Starred Entry Feed
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 There is now an optional RSS feed of your starred items available. To enable it, visit your [settings page](https://feedbin.me/settings) and check the "Enable starred entry feed" option. After saving your settings a link to your starred RSS feed will be displayed.

@@ -8,7 +8,7 @@ class: home
 <article>
 	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 	<p class="page-meta">
-		by {{ page.author }}
+		by <a href="{{ page.author_link }}">{{ page.author }}</a>
 		<br /><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
 	</p>
 	{{ page.content }}

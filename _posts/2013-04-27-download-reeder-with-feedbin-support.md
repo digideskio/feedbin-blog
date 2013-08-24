@@ -2,6 +2,7 @@
 layout: post
 title:  Download Reeder with Feedbin Support
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 [<img src="/assets/images/2013-04-27/reeder.png" style="max-width: 320px;" />](https://itunes.apple.com/app/reeder/id325502379)

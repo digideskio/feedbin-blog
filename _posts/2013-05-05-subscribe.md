@@ -2,6 +2,7 @@
 layout: post
 title:  Subscribe
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 Even before I started working on Feedbin, I was always looking for easy ways to subscribe to feeds. This was something I was so obsessed with that I wrote an [iPhone app](http://subscribeapp.com/) to manage your Google Reader subscriptions as well as a script to [subscribe using Hubot](https://github.com/github/hubot-scripts/blob/master/src/scripts/google-reader.coffee).

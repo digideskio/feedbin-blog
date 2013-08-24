@@ -161,10 +161,12 @@ code, pre {
 }
 	
 blockquote p {
-	font-size: 14px;
 	color: #666;
-	line-height: 20px;
-	font-weight: 400;
+}
+
+blockquote {
+	padding: 0 0 0 20px;
+	border-left: 5px solid #CCC;
 }
 
 p,

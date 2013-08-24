@@ -2,6 +2,7 @@
 layout: post
 title:  Downtime Today
 author: Ben Ubois
+author_link: https://twitter.com/bsaid
 ---
 
 This morning I performed a database upgrade. The reason for the upgrade was to  have more RAM available to the database indexes. One important performance metric for databases is the [percentage of the index that can be kept in memory](http://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/). This number should be as close to 100% as possible and over the last week, Feedbin's had dropped to 94%. Time for an upgrade.
