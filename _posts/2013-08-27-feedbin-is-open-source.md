@@ -19,4 +19,4 @@ Mostly I'm just excited to see what happens. It should be a cool experiment.
 
 I wanted to thank [Karl Fogel](http://www.red-bean.com/kfogel/) for his help making this happen. He literally wrote a book on [producing open source software](http://producingoss.com/) and is in the [process of revising it](http://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed) so it was great to have him as an advisor. Also thanks to [Alex Kessinger](https://alpha.app.net/voidfiles) and [Samuel Clay](https://twitter.com/samuelclay) for their encouragement and help.
 
-[Discuss this on Hacker News](http://example.com/).
+[Discuss this on Hacker News](https://news.ycombinator.com/item?id=6284319).
