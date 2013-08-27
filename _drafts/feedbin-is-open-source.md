@@ -10,10 +10,10 @@ I spend a lot of time thinking about how to compete with free. I believe the ans
 I think there are many great reasons to make Feedbin open source, but my main reasons are:
 
 - I want your help.
-- I want you to have a say in the future of Feedbin.
 - I like transparency and there's nothing more transparent than being able to view source.
+- It makes it so Feedbin cannot pull a Google Reader.
 
-Tom Preston-Werner of GitHub wrote a [great article](http://tom.preston-werner.com/2011/11/22/open-source-everything.html)  outlining some of the pros of open sourcing software and I'm hoping to reap these rewards as well.
+Tom Preston-Werner of GitHub wrote a [great article](http://tom.preston-werner.com/2011/11/22/open-source-everything.html)  outlining some of the pros of open sourcing software and I'm hoping to reap those benefits as well.
 
 Mostly I'm just excited to see what happens. It should be a cool experiment.
 
