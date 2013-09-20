@@ -8,23 +8,23 @@
 	<link rel="stylesheet" href="/assets/stylesheets/css.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
 </head>
 <body class="{{ page.class }}">
-	<div class="container ">
-		<div class="content clearfix">
-			<div class="half">
-				<a href="https://feedbin.me" class="logo"></a>
-			</div>
-			<div class="half">
-				<ul class="nav">
-					<li><a href="/">Blog</a></li>
-					<li><a href="/archive/">Archive</a></li>
-				</ul>
+	<header>
+		<div class="container">
+			<div class="content clearfix">
+				<div class="half">
+					<a href="https://feedbin.me" class="logo"></a>
+				</div>
+				<div class="half">
+					<ul class="nav">
+						<li><a href="/">Blog</a></li>
+						<li><a href="/archive/">Archive</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
+	</header>
 	<div class="container">
-		<div class="content main-content">
-			{{ content }}
-		</div>
+		{{ content }}
 	</div>
 	<footer>
 		<div class="container clearfix">
