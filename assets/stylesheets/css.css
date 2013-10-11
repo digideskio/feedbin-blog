@@ -103,6 +103,10 @@ img {
 	border: 18px solid #666666;
 }
 
+img.no-border {
+	border: none;
+}
+
 table {
 	@extend .table;
 	@extend .table-bordered;
