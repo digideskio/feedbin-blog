@@ -15,4 +15,4 @@ If you're using Safari on OS X Mavericks there is a push notification action. Th
 
 If you have not tried Feedbin before, now is a great time to check it out. There's a free [14 day free trial](https://feedbin.me/signup) so it's easier than ever to give it a try.
 
-[Discuss this on Hacker News]().
+[Discuss this on Hacker News](https://news.ycombinator.com/item?id=6681590).
