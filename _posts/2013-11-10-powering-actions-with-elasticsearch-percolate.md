@@ -61,3 +61,5 @@ end
 {% endhighlight %}
 
 [Get in touch](https://twitter.com/feedbin) if you have any questions about this or [sign up to see it in action](https://feedbin.me).
+
+[Discuss this on Hacker News](https://news.ycombinator.com/item?id=6708446).
