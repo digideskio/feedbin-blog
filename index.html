@@ -4,22 +4,21 @@ title: Feedbin Blog
 class: home
 ---
 
-{% for page in paginator.posts %}	
+{% for page in paginator.posts %}
 <div class="content main-content">
 	<article>
 		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 		<p class="page-meta">
-			by <a href="{{ page.author_link }}">{{ page.author }}</a>
-			<br /><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
+			<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time> by {{ page.author }}
 		</p>
 		{{ page.content }}
 	</article>
 </div>
 {% endfor %}
 
-<div class="clearfix">
-	<div class="half">
-		<p>
+<article>
+	<ul class="pager">
+		<li class="previous">
 		    {% if paginator.previous_page %}
 				{% if paginator.previous_page == 1 %}
 					<a href="/">Newer</a>
@@ -27,13 +26,12 @@ class: home
 					<a href="/page{{paginator.previous_page}}">Newer</a>
 				{% endif %}
 			{% endif %}
-		</p>
-	</div>
-	<div class="half right-text">
-		<p>
+			&nbsp;
+		</li>
+		<li class="next">
 		    {% if paginator.next_page %}
 		      <a href="/page{{paginator.next_page}}">Older</a>
 		    {% endif %}
-		</p>
-	</div>
-</div>
+		</li>
+	</ul>
+</article>

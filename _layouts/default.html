@@ -8,48 +8,32 @@
 	<link rel="stylesheet" href="/assets/stylesheets/css.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
 </head>
 <body class="{{ page.class }}">
-	<header>
-		<div class="container">
-			<div class="content clearfix">
-				<div class="half">
-					<a href="https://feedbin.me" class="logo"></a>
-				</div>
-				<div class="half">
-					<ul class="nav">
-						<li><a href="/">Blog</a></li>
-						<li><a href="/archive/">Archive</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
 	<div class="container">
-		{{ content }}
-	</div>
-	<footer>
-		<div class="container clearfix">
-			<div class="content">
-				<div class="half">
-					<p><a href="https://github.com/feedbin/support#readme">Contact & Support</a> | <a href="https://twitter.com/feedbin">Twitter</a></p>
-				</div>
-				<div class="half right-text">
-					<p>© {{ site.time | date: "%Y" }} Feedbin, Inc.</p>
-				</div>
-			</div>
+		<div class="content-wrap">
+			<header>
+				<article>
+					<a href="/"><img src="/assets/images/logo.svg" class="logo" /></a>
+					<p>A fast, simple RSS reader that delivers a great reading experience. <a href="https://feedbin.me">14-Day Free Trial</a>.</p>
+				</article>
+			</header>
+			{{ content }}
 		</div>
-	</footer>
+		<div class="sidebar">
+			<a href="/"><img src="/assets/images/logo.svg" class="logo" /></a>
+			<h4>About</h4>
+			<p>A fast, simple RSS reader that delivers a great reading experience.</p>
+			<p><a href="https://feedbin.me">14-Day Free Trial</a></p>
+
+			<h4>Follow Feedbin</h4>
+			<ul>
+				<li><a href="https://twitter.com/feedbin">Twitter</a></li>
+				<li><a href="{{ site.domain }}/atom.xml">RSS</a></li>
+			</ul>
+		</div>
+	</div>
 	<script>
 		var _gauges = _gauges || [];
-		(function() {
-			var t   = document.createElement('script');
-			t.type  = 'text/javascript';
-			t.async = true;
-			t.id    = 'gauges-tracker';
-			t.setAttribute('data-site-id', '51417db8108d7b6c720000a4');
-			t.src = '//secure.gaug.es/track.js';
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(t, s);
-		})();
+		(function() { var t = document.createElement('script'); t.type = 'text/javascript'; t.async = true; t.id = 'gauges-tracker'; t.setAttribute('data-site-id', '51417db8108d7b6c720000a4'); t.src = '//secure.gaug.es/track.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(t, s); })();
 	</script>
 	</body>
 </html>
