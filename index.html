@@ -16,22 +16,24 @@ class: home
 </div>
 {% endfor %}
 
-<article>
-	<ul class="pager">
-		<li class="previous">
-		    {% if paginator.previous_page %}
-				{% if paginator.previous_page == 1 %}
-					<a href="/">Newer</a>
-				{% else %}
-					<a href="/page{{paginator.previous_page}}">Newer</a>
+<div class="pager-wrap">
+	<article>
+		<ul class="pager">
+			<li class="previous">
+			    {% if paginator.previous_page %}
+					{% if paginator.previous_page == 1 %}
+						<a href="/">Newer</a>
+					{% else %}
+						<a href="/page{{paginator.previous_page}}">Newer</a>
+					{% endif %}
 				{% endif %}
-			{% endif %}
-			&nbsp;
-		</li>
-		<li class="next">
-		    {% if paginator.next_page %}
-		      <a href="/page{{paginator.next_page}}">Older</a>
-		    {% endif %}
-		</li>
-	</ul>
-</article>
+				&nbsp;
+			</li>
+			<li class="next">
+			    {% if paginator.next_page %}
+			      <a href="/page{{paginator.next_page}}">Older</a>
+			    {% endif %}
+			</li>
+		</ul>
+	</article>
+</div>

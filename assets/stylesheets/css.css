@@ -282,12 +282,20 @@ article {
 	color: #666666;
 }
 
+.pager-wrap {
+	border-top: 1px solid #efefef;
+	padding-top: 15px;
+}
+
+.pager-wrap article {
+	padding-top: 0;
+	padding-bottom: 15px;
+}
+
 .pager {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	border-top: 1px solid #efefef;
-	padding-top: 15px;
 }
 
 .pager li {
