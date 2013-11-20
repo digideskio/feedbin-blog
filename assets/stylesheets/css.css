@@ -41,7 +41,7 @@ table {
 ----------------------------------------------*/
 body {
 	background-color: #efefef;
-	padding: 0 15px;
+	padding: 20px 20px 1px 20px;
 	margin: 0;
 	color: #333;
 	font-size: 20px;
@@ -223,7 +223,6 @@ code {
 }
 
 .content-wrap {
-	background-color: #FFF;
 	float: left;
 	width: 74.226804123711%;
 }
@@ -256,7 +255,7 @@ header p {
 }
 
 .main-content {
-	border-top: 1px solid #efefef;
+	background-color: #FFF;
 }
 
 .main-content:first-child {
@@ -267,6 +266,7 @@ article {
 	max-width: 620px;
 	padding: 50px 15px;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .sidebar h4 {
@@ -287,14 +287,10 @@ article {
 	padding-top: 15px;
 }
 
-.pager-wrap article {
-	padding-top: 0;
-	padding-bottom: 15px;
-}
-
 .pager {
 	margin: 0;
 	padding: 0;
+	padding-bottom: 15px;
 	overflow: hidden;
 }
 
