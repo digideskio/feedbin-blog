@@ -5,4 +5,4 @@ email:       support@feedbin.me
 permalink:   pretty
 pygments:    true
 paginate:    10
-exclude:     [public]
+exclude:     [public, vendor, .bundle, log, Gemfile, Gemfile.lock, Capfile, config, lib]
