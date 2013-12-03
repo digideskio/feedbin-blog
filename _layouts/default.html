@@ -14,7 +14,11 @@
 				<article>
 					<a href="/"><img src="/assets/images/logo.svg" class="logo" /></a>
 					<p>A fast, simple RSS reader that delivers a great reading experience. <a href="https://feedbin.me">14-Day Free Trial</a>.</p>
-					<p class="center" style="text-align: center;"><a href="/archive/">Archive</a></p>
+					<p>
+						<a href="/archive/">Archive</a> |
+						<a href="{{ site.domain }}/atom.xml" onclick="var z=document.createElement('script');z.src='https://www.subtome.com/load.js';document.body.appendChild(z); return false;">Subscribe</a> |
+						<a href="https://twitter.com/feedbin">Twitter</a>
+					</p>
 				</article>
 			</header>
 			{{ content }}
