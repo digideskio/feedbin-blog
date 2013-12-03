@@ -238,11 +238,13 @@ header {
 
 header article {
 	padding-top: 8px;
-	padding-bottom: 0;
+	padding-bottom: 1px;
+	margin: 0;
+	text-align: center;
 }
 
 header .logo {
-	margin: 0 0 8px 0;
+	margin: 0 auto 8px auto;
 	max-width: 120px;
 }
 
@@ -253,6 +255,20 @@ header {
 header p {
 	margin-bottom: 8px;
 }
+
+header ul {
+	margin: 0 !important;
+	text-align: center !important;
+}
+header ul li,
+header ul li a,
+header ul li a:before {
+	display: inline !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	background: none !important;
+}
+
 
 .main-content {
 	background-color: #FFF;
@@ -349,6 +365,59 @@ article {
 		display: inline;
 		word-break: break-all;
 	}
+}
+
+/*----------------------------------------------
+  Icons
+----------------------------------------------*/
+.sidebar-icon {
+	margin: 0;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+.sidebar-icon a {
+	display: block;
+	position: relative;
+	padding-left: 40px;
+	list-style-type: none;
+	line-height: 30px;
+}
+
+.sidebar-icon a:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 2px;
+	background-color: #666666;
+	content: "";
+}
+
+.icon-twitter a:before, .icon-email a:before, .icon-rss a:before, .icon-github a:before, .icon-archive a:before {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.icon-twitter a:before {
+	background-image: url(/assets/images/icon-twitter.svg);
+}
+
+.icon-email a:before {
+	background-image: url(/assets/images/icon-email.svg);
+}
+
+.icon-rss a:before {
+	background-image: url(/assets/images/icon-rss.svg);
+}
+
+.icon-github a:before {
+	background-image: url(/assets/images/icon-github.svg);
+}
+
+.icon-archive a:before {
+	background-image: url(/assets/images/icon-archive.svg);
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
