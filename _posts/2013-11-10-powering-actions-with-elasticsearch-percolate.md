@@ -3,6 +3,7 @@ layout: post
 title: Powering Actions with Elasticsearch Percolate
 author: Ben Ubois
 author_link: https://twitter.com/bsaid
+updated: 2013-12-05 00:00:00
 ---
 
 [Actions](/2013/11/06/actions-workflows-for-your-rss-feeds/) are built on a great feature of [elasticsearch](http://www.elasticsearch.org/) called [percolate](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/search-percolate.html).
