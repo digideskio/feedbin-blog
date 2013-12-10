@@ -51,7 +51,7 @@ class ActionsPerform
 
   def perform(entry_id, action_ids)
     actions = Action.where(id: action_ids)
-    actions.each do action
+    actions.each do |action|
       if action.actions.include?("send_push_notification")
         PushNotificationSend.perform_async(entry_id, user_ids)
       end
