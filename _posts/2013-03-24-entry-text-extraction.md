@@ -5,7 +5,7 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-<img src="/assets/images/2013-03-24/content_extraction.gif" style="max-width: 752px;" />
+<img src="{{ 'images/2013-03-24/content_extraction.gif' | asset_path }}" style="max-width: 752px;" />
 
 You can now view the original content of an entry inline. This is great for link blog style feeds like [Daring Fireball](http://daringfireball.net) or [Hacker News](https://news.ycombinator.com/).
 

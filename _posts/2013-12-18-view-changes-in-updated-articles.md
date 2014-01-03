@@ -4,7 +4,7 @@ title: View Changes in Updated Articles
 author: Ben Ubois
 ---
 
-![View Changes](/assets/images/2013-12-18/view-changes.gif)
+![View Changes]({{ 'images/2013-12-18/view-changes.gif' | asset_path }})
 
 Feedbin has been updating articles if they change after they were originally published for a little while. When this was added, Feedbin would also save the original article.
 

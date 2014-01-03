@@ -9,7 +9,7 @@ Feedbin is now running in its new home at [SoftLayer WDC01](http://www.softlayer
 
 I wanted to talk a bit about the architecture and hardware that's being used.
 
-<img src="/assets/images/2013-06-28/architecture.png" style="max-width: 697px;" />
+<img src="{{ 'images/2013-06-28/architecture.png' | asset_path }}" style="max-width: 697px;" />
 
 The Data Center
 ---------------
@@ -42,7 +42,7 @@ The database has a similarly configured hot standby (using Command Prompt's [PIT
 [Nginx](http://wiki.nginx.org/Main) in front of [Unicorn](http://unicorn.bogomips.org/) running Rails 4.0, Ruby 2.0 (using [rbenv](https://github.com/sstephenson/rbenv)) on Ubuntu 12.04.2 LTS 64bit
 
 - Motherboard: SuperMicro X9SCI-LN4F Intel Xeon SingleProc
-- CPU: Intel Xeon Ivy Bridge E3-1270 V2 Quadcore 3.5GHz 
+- CPU: Intel Xeon Ivy Bridge E3-1270 V2 Quadcore 3.5GHz
 - RAM: 8GB
 
 **Background Workers x 2**
@@ -64,7 +64,7 @@ There is also a 4 GB memcached instance here.
 
 All feed refreshing is done in another datacenter. In this case [DigitalOcean](https://www.digitalocean.com/) is being used. They provide low cost AND high performance virtual private servers and it's fast to turn them on or off. The refresh job gets scheduled to a 16GB instance running Redis 2.6.14. There are 10 2GB 2 core instances running Sidekiq Pro that pick jobs off the queue. The job is simple but needs to run as quickly and as parallel as possible. It makes an HTTP request with if-modified-since and if-none-match headers to take advantage of HTTP caching. Then the feed is parsed using [feedzirra](https://github.com/pauldix/feedzirra). A unique id is generated for every entry in the feed and the existence of this id is checked against the redis database.
 
-The data structure for the ids in redis was inspired by this [Instagram blog post](http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs) about efficiently storing millions of key value pairs. 
+The data structure for the ids in redis was inspired by this [Instagram blog post](http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs) about efficiently storing millions of key value pairs.
 
 A unique id for an entry is a sha1 of a few different attributes of the entry. After an entry is imported a key is added to redis like:
 

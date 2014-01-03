@@ -5,7 +5,7 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-<img src="/assets/images/2013-11-06/actions.png" style="max-width: 1114px;" />
+<img src="{{ 'images/2013-11-06/actions.png' | asset_path }}" style="max-width: 1114px;" />
 
 [Actions](https://feedbin.me/settings/actions) are a great way to filter out articles you're not interested in or surface articles you want to be sure to read.
 

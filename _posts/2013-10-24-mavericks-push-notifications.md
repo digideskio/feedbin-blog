@@ -5,7 +5,7 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-<img src="/assets/images/2013-10-24/push.gif" style="max-width: 1080px;" />
+<img src="{{ 'images/2013-10-24/push.gif' | asset_path }}" style="max-width: 1080px;" />
 
 [OS X Mavericks](http://www.apple.com/osx/) was released on Tuesday and it has a cool feature that allows websites to [send push notifications to your Mac](https://developer.apple.com/notifications/safari-push-notifications/).
 

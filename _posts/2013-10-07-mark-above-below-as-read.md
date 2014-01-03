@@ -5,4 +5,4 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-<img src="/assets/images/2013-10-07/mark-direction-as-read.gif" style="max-width: 814px;" />
+<img src="{{ 'images/2013-10-07/mark-direction-as-read.gif' | asset_path }}" style="max-width: 814px;" />

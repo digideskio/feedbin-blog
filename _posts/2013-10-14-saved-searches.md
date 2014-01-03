@@ -5,7 +5,7 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-<img src="/assets/images/2013-10-14/saved-searches.gif" style="max-width: 818px;" />
+<img src="{{ 'images/2013-10-14/saved-searches.gif' | asset_path }}" style="max-width: 818px;" />
 
 Any search can now be saved for quick access later. To create a saved search, start by searching for something, hit save and give your search a title.
 

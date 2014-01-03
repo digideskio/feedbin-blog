@@ -5,13 +5,13 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-<img src="/assets/images/2013-10-10/search.png" style="max-width: 317px;" class="no-border" />
+<img src="{{ 'images/2013-10-10/search.png' | asset_path }}" style="max-width: 317px;" class="no-border" />
 
-I'm very happy to announce the availability of search for Feedbin. 
+I'm very happy to announce the availability of search for Feedbin.
 
 I'm calling it a beta because there are still improvements to be made and bugs that have not been found, so I'd appreciate your [feedback](https://github.com/feedbin/support/issues).
 
-Search supports some great advanced options like `AND`, `OR` and `NOT`. 
+Search supports some great advanced options like `AND`, `OR` and `NOT`.
 
 Have a lot of starred items? Try adding `is:starred` to your query to just search starred items. `is:read/unread` are also supported.
 
