@@ -6,3 +6,6 @@ permalink:   pretty
 pygments:    true
 paginate:    10
 exclude:     [public, vendor, .bundle, log, Gemfile, Gemfile.lock, Capfile, config, lib]
+asset_url:
+  - hosted: //me-feedbin-blog.global.ssl.fastly.net/assets
+  - local: /assets
