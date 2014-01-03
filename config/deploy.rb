@@ -9,7 +9,7 @@ set :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 set :deploy_to, '/srv/apps/feedbin-blog'
 set :scm, :git
 
-set :bundle_bins, fetch(:bundle_bins, []).push %w(jekyll)
+set :bundle_bins, fetch(:bundle_bins, []).push(%w{jekyll})
 
 namespace :deploy do
 
