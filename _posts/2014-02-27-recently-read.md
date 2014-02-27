@@ -4,7 +4,7 @@ title: Recently Read
 author: Ben Ubois
 ---
 
-<img src="{{ 'images/2014-02-27/recently-read.png' | asset_path }}" style="max-width: 249px;" class="float" />
+<img src="{{ 'images/2014-02-27/recently-read.png' | asset_path }}" style="max-width: 253px;" class="float" />
 
 There's a new section that sits right below Starred called Recently Read.
 
