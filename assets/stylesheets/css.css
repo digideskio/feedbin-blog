@@ -61,7 +61,7 @@ a:hover {
 }
 
 em, cite {
-	font-style: normal;
+	font-style: italic;
 }
 
 strong {
@@ -92,7 +92,8 @@ h1 a:hover {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 22px;
+	margin: 0 0 10px 0;
 }
 
 img {
@@ -103,7 +104,8 @@ img {
 }
 
 .content img {
-	border: 2px solid #666666;
+	border: 1px solid #DDD;
+	padding: 2px;
 }
 
 img.float {
@@ -148,8 +150,21 @@ blockquote {
 p,
 ul,
 ol,
-pre {
+pre,
+figure {
 	margin: 0 0 16px 0;
+}
+
+figure img {
+	margin-bottom: 5px;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+	line-height: 1.5em;
+	font-size: 80%;
+	color: #999;
 }
 
 li {
@@ -535,3 +550,21 @@ article {
 	max-width: 320px;
 }
 
+
+/*----------------------------------------------
+  Post year-zero.md
+----------------------------------------------*/
+.wallpaper {
+	margin: 0 0 16px 0;
+	height: 443px;
+	background: #3399FF url(/assets/images/2014-03-11/wallpaper.svg);
+}
+
+.wallpaper-logo {
+	height: 100%;
+	background: url(/assets/images/2014-03-11/message.svg) 50% 50% no-repeat;
+}
+
+.wallpaper-logo img {
+	display: none;
+}

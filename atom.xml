@@ -5,9 +5,9 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ site.title }}</title>
 	<subtitle>{{ site.description }}</subtitle>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
 	<link href="{{ site.domain }}/atom.xml" rel="self" />
 	<link href="{{ site.domain }}" />
-  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>{{ site.domain }}</id>
 	<author>
@@ -15,7 +15,7 @@ layout: nil
 		<email>{{ site.email }}</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for post in site.posts limit:1 %}
 	<entry>
 		<title>{{ post.title | xml_escape }}</title>
     <author>
@@ -28,7 +28,7 @@ layout: nil
 		{% else %}
     <updated>{{ post.date | date_to_xmlschema }}</updated>
 		{% endif %}
-		<id>{{ site.domain }}{{ post.id }}</id>
+		<id>{{ post.id }}</id>
 		<summary>{{ post.content | strip_html | truncatewords: 50 | xml_escape }}</summary>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
