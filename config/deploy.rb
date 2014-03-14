@@ -11,13 +11,11 @@ set :scm, :git
 
 namespace :deploy do
 
-  desc 'Restart application'
-  task :restart do
+  desc 'jekyll build'
+  task :publishing do
     on roles(:app), in: :sequence, wait: 5 do
       execute "cd #{current_path} && JEKYLL_ENV=hosted /usr/local/rbenv/shims/bundle exec jekyll build"
     end
   end
-
-  after :finishing, 'deploy:cleanup'
 
 end
