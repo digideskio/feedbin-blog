@@ -5,9 +5,9 @@ author: Ben Ubois
 author_link: https://twitter.com/bsaid
 ---
 
-There is now an optional RSS feed of your starred items available. To enable it, visit your [settings page](https://feedbin.me/settings) and check the "Enable starred entry feed" option. After saving your settings a link to your starred RSS feed will be displayed.
+There is now an optional RSS feed of your starred items available. To enable it, visit your [settings page](https://feedbin.com/settings) and check the "Enable starred entry feed" option. After saving your settings a link to your starred RSS feed will be displayed.
 
-The URL will look something like `https://feedbin.me/starred/Lx3E5w94M3mOKFtcttHK8w.xml` the part at the end is a unique random value assigned to your feed. The URL to your starred feed is not easily guessable, but anyone with your URL can view your feed.
+The URL will look something like `https://feedbin.com/starred/Lx3E5w94M3mOKFtcttHK8w.xml` the part at the end is a unique random value assigned to your feed. The URL to your starred feed is not easily guessable, but anyone with your URL can view your feed.
 
 I use this feed to automatically add starred entries to [Pinboard](https://pinboard.in). You can do this too using [IFTTT](https://ifttt.com/). To set this up you'll want to create a new "Feed" recipe. 
 

@@ -11,7 +11,7 @@ author: Ben Ubois
 	</div>
 </div>
 
-Feedbin [launched](http://blog.feedbin.me/2013/03/12/rediscover-rss/) into a market with no future. Google owned RSS and they had let it languish.
+Feedbin [launched](http://blog.feedbin.com/2013/03/12/rediscover-rss/) into a market with no future. Google owned RSS and they had let it languish.
 
 That all changed when Google [announced](http://googleblog.blogspot.com.au/2013/03/a-second-spring-of-cleaning.html) they were shutting down Google Reader two days after Feedbin launched.
 
@@ -43,7 +43,7 @@ I started to look into dedicated hosting that had some hardware flexibility and 
 	<figcaption>Response time for critical pages (left before move, right after move)</figcaption>
 </figure>
 
-On the day of the [move](http://blog.feedbin.me/2013/06/27/feedbin-server-move/) people [asked](https://twitter.com/khurtwilliams/status/350736255673307136) why Feedbin had to move on a weekday and the reason was that I didn't think I had a choice. I was looking at these graphs pretty sure that Feedbin was about to fall over.
+On the day of the [move](http://blog.feedbin.com/2013/06/27/feedbin-server-move/) people [asked](https://twitter.com/khurtwilliams/status/350736255673307136) why Feedbin had to move on a weekday and the reason was that I didn't think I had a choice. I was looking at these graphs pretty sure that Feedbin was about to fall over.
 
 For all this performance, surely the price must have gone way up? Well no. Feedbin's last bill on Heroku was for $7,997 and the first month's bill on SoftLayer was $3,932 so dedicated does not mean expensive.
 

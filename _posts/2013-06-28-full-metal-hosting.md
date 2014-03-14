@@ -74,4 +74,4 @@ Using the first 5 characters in the id hash creates a nice distribution of keys 
 
 If it is determined that an entry is new the full entry is converted to JSON and inserted back into redis as a Sidekiq job where it can get imported by a background worker running at SoftLayer.
 
-I'd love to [hear from you](mailto:ben@feedbin.me) if you have any questions or suggestions about the architecture.
+I'd love to [hear from you](mailto:ben@feedbin.com) if you have any questions or suggestions about the architecture.

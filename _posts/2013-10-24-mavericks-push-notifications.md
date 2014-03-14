@@ -11,7 +11,7 @@ author_link: https://twitter.com/bsaid
 
 Feedbin can now take advantage of this by offering push notifications for new articles.
 
-To set it up you will need to be using Safari 7 on Mavericks. Then visit the [Feeds](https://feedbin.me/settings/feeds) page under Settings and there will be an option to enable push notifications. Click that and choose to allow Feedbin to send push notification in the resulting pop-up.
+To set it up you will need to be using Safari 7 on Mavericks. Then visit the [Feeds](https://feedbin.com/settings/feeds) page under Settings and there will be an option to enable push notifications. Click that and choose to allow Feedbin to send push notification in the resulting pop-up.
 
 Next you will need to select which feeds you want to enable push for in the Feed Settings list. It's a per-feed setting because enabling this for all feeds would be overwhelming.
 

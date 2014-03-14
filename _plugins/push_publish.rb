@@ -8,7 +8,7 @@ module Jekyll
       uri = URI('http://pubsubhubbub.superfeedr.com/')
       Net::HTTP.post_form(uri,
         'hub.mode' => "publish",
-        'hub.url' => 'http://blog.feedbin.me/atom.xml'
+        'hub.url' => 'http://blog.feedbin.com/atom.xml'
       )
     end
 

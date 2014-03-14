@@ -15,4 +15,4 @@ The new setup has been running beautifully as a staging server for the past few 
 
 Feedbin is built on paying customers and I really appreciate your support and patience. Thanks to you Feedbin has been profitable since three weeks in and will be able to stick around for a while.
 
-Please contact me by [email](mailto:support@feedbin.me) or on [Twitter](https://twitter.com/feedbinapp) if you have any questions.
+Please contact me by [email](mailto:support@feedbin.com) or on [Twitter](https://twitter.com/feedbinapp) if you have any questions.
