@@ -167,9 +167,20 @@ figcaption {
 	color: #999;
 }
 
+ul, ol {
+	margin-left: 20px;
+}
+
 li {
 	margin-left: 20px;
+}
+
+ul li {
 	list-style-type: disc;
+}
+
+ol li {
+	list-style-type: decimal;
 }
 
 code {
