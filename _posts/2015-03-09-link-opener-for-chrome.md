@@ -13,3 +13,5 @@ The default shortcut to open a link is `option/alt + v`. This can be customized 
 The [extension is open source](https://github.com/feedbin/feedbin-link-opener-chrome) and ideas for improvements are welcome.
 
 An extension for Safari is not necessary because WebKit still supports the browser API to create background tabs.
+
+**Update:** Martijn van der Ven has created a [FireFox version of this extension](https://github.com/Zegnat/feedbin-link-opener-firefox/releases/). Thanks Martijn!
